@@ -4,7 +4,11 @@
     box-sizing: border-box; 
     font-family: "Brush Script MT", cursive;
     list-style-position: inside;
+    text-align: left;
+    color:#A10035;
+ 
     /* list-style-type: none; */
+   
  }
  nav{
     width: 100%; 
@@ -38,67 +42,66 @@ nav ul li a{
 nav ul li a:hover{
 background-color: #FFC4C4;
 }
-.hero{
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hero.jpg');
-    position: relative;
-}
-.herologo{
-position: absolute;
-right: 25%;
-width: 50%;
-top: 100px;
-}
 
 
-.recipebook{
-    border: 1px solid #A10035;
-    width: 100%;
-    height: 3000px;
+
+section {
     background-color: #FFC4C4;
-}
-
-
-.link{
-    color: #A10035;
+    stroke: #A10035 5px;
+    width: 100%;
+    height: 100%;
+   
+    float: left;
 }
 .recipe{
-   margin-top: 8%;
-   margin-left: 10%;
-    border: 2px solid #A10035;
-    width: 20%;
-    height: 25%;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #FFE7BF;
-}
-section div img{
-    border-radius: 10px 10px 0px 0px;
-    width:100%;
+    border: 5px solid #A10035 ;
+    height: 5000px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+   border-radius: 50px;
+ 
 }
 
+section div img{
+    border-radius: 50px 50px 0px 0px;
+    width: 100%;
+}
 section div div{
     margin: 0px;
     /* border: #A10035 10px; */
     width: 100%;
-    height: 10%;
+    height: 2%;
     background-color: #FF869E;
     text-align: center;
     align-self: center;
-    font-size: large;
+    font-size: xx-large;
     font-family: "Brush Script MT", bold;
+    
+  
 }
 section div div h2{
-    padding-top: 5%;
+    padding-top: 1.8%;
+    text-align: center;
     
 }
 .ingredints{
     margin-top: 8px;
     margin-left: 8px;
-    width: 25%;
+    width: 100%;
     padding: 0px;
     margin-right: 0%;
     float: left;
     clear: left;
     text-align: left;
     color:#A10035;
+}
+
+section div h3{
+    padding-top: 5%;
+    color: #A10035;
+    text-align: center;
+}
+section div p{
+    margin: 5%;
 }
